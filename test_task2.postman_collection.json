@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "c2cbca74-6123-4165-ad45-526fe2f63e06",
+		"name": "test_task2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23374500"
+	},
+	"item": [
+		{
+			"name": "compaignList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test_task/public/api/compaignList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test_task",
+						"public",
+						"api",
+						"compaignList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_compaign",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Bilal Bhai",
+							"type": "text"
+						},
+						{
+							"key": "start_date",
+							"value": "2022-09-20",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-09-25",
+							"type": "text"
+						},
+						{
+							"key": "daily_budget",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "total",
+							"value": "4000",
+							"type": "text"
+						},
+						{
+							"key": "images[0]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/Landing.png"
+						},
+						{
+							"key": "images[1]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/stelia.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/test_task/public/api/add_compaign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test_task",
+						"public",
+						"api",
+						"add_compaign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_compaign",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Bilal Bhai",
+							"type": "text"
+						},
+						{
+							"key": "start_date",
+							"value": "2022-09-20",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-09-25",
+							"type": "text"
+						},
+						{
+							"key": "daily_budget",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "total",
+							"value": "4000",
+							"type": "text"
+						},
+						{
+							"key": "images[0]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/Landing.png"
+						},
+						{
+							"key": "images[1]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/stelia.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/test_task/public/api/add_compaign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test_task",
+						"public",
+						"api",
+						"add_compaign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_compaign",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Bilal Bhai",
+							"type": "text"
+						},
+						{
+							"key": "start_date",
+							"value": "2022-09-20",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-09-25",
+							"type": "text"
+						},
+						{
+							"key": "daily_budget",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "total",
+							"value": "4000",
+							"type": "text"
+						},
+						{
+							"key": "images[0]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/Landing.png"
+						},
+						{
+							"key": "images[1]",
+							"type": "file",
+							"src": "/C:/Users/Azhar Abbas/Pictures/stelia.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/test_task/public/api/add_compaign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test_task",
+						"public",
+						"api",
+						"add_compaign"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
